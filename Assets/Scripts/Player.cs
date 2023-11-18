@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    
+    public int Health;
+
     void Start()
     {
-        GameManager.Instance.Score++;
+        GameManager.Instance.Health++;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
